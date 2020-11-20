@@ -37,7 +37,7 @@ The Staging Area is when git starts tracking and saving changes that occur in fi
 <hr>
 
 <hr>
-<img src = 'assets/gitWT-S-C.jpg'>
+<img src = 'assets/gitWT-S-C.png'>
 <hr>
 
 - Checking Git Status
@@ -64,10 +64,17 @@ git add
 git commit
 ```
 ```git commit``` takes snapshot of current version/or current staged condition.
-
+<!--
 <hr>
 <img src = 'assets/gitCommited.jpg'>
 <hr>
+-->
 
-
+- Switching between different version
+```
+git checkout
+```
+```git checkout```  checks the branches and updates the files in the working directory to match the version already available in that branch, and it forwards the updates to Git to save all new commit in that branch.
+The git checkout command operates upon three different entities which are files, commits, and branches.
+There is no undo for this.
 
